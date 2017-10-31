@@ -5,12 +5,6 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../fonts/font/Bold.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Oswald';
   src: url(../fonts/font/ExtraLight.ttf);
   font-weight: 200;
 }
@@ -31,6 +25,18 @@
   font-family: 'Oswald';
   src: url(../fonts/font/SemiBold.ttf);
   font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/Bold.ttf);
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .h1 {
@@ -69,7 +75,21 @@
   text-align: right
 }
 
-/* =========== Início =========== */
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.md .color-theme-green a {
+  color: #212121;
+}
+
+.fab i {
+
+  color: #FFF;
+
+}
+
+/* =========== Home =========== */
 
 .home-menu {
   font-family: 'Oswald', sans-serif;
@@ -89,8 +109,49 @@
   color: #555555;
 }
 
-/* =========== Projetos =========== */
+/* =========== Programming =========== */
 
-.projetos {
+.programming .list-group-title {
+  font-size: 14px !important;
+}
+
+/* =========== Projets =========== */
+
+.projects {
   font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-weight: bold
+}
+
+/* =========== Projet =========== */
+
+.navbar.no-border::after {
+  display: none;
+}
+
+.project .header {
+  padding: 0px 20px 20px;
+  background-color: #4caf50;
+  color: #FFF;
+}
+
+.project .category {
+  font-size: 30px;
+  text-align: center
+}
+
+.title {
+  font-weight: 700
+}
+
+.info {
+  text-align: center;
+  font-weight: 300
+}
+
+.project .fab {
+  font-size: 25px;
+  font-weight: 700
 }
