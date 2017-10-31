@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/font/SemiBold.ttf);
+  font-weight: 700;
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h3 {
+  font-size: 1.75rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
+
+.h5 {
+  font-size: 1.25rem;
+}
+
+.h6 {
+  font-size: 1rem;
+}
+
+.text-left {
+  text-align: left
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
+/* =========== Início =========== */
+
+.home-menu {
+  font-family: 'Oswald', sans-serif;
+}
+
+.home-menu .card {
+  background: #0D6F1F;
+  color: #FFF;
+  text-align: center;
+}
+
+.card i {
+  font-size: 40px;
+}
+
+.card .author {
+  color: #555555;
+}
+
+/* =========== Projetos =========== */
+
+.projetos {
+  font-family: 'Roboto', sans-serif;
+}
